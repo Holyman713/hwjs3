@@ -1,4 +1,4 @@
-/* var a = +prompt('Введите число');
+var a = +prompt('Введите число');
 var b = +prompt('Введите степень');
 var c=1;
 
@@ -17,7 +17,7 @@ if (isNaN(a)){
         c=c*a;       
     }
     alert(a + ' ^ ' + b + ' = ' + c);
-} */
+}
 
 
 

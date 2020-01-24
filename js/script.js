@@ -1,4 +1,4 @@
-var a = +prompt('Введите число');
+/* var a = +prompt('Введите число');
 var b = +prompt('Введите степень');
 var c=1;
 
@@ -17,7 +17,7 @@ if (isNaN(a)){
         c=c*a;       
     }
     alert(a + ' ^ ' + b + ' = ' + c);
-}
+} */
 
 
 
@@ -35,8 +35,13 @@ do {
     var symbol2 = prompt('Введите конечный символ');
 }while (symbol==' ');
 
-console.log(symbol2);
-for(i=1;i<line;i++){
-    symbol2=symbol+symbol2;
-    console.log(symbol2);
+
+for(i=0;i<line;i++){
+    if (i!=0){
+        symbol2=symbol+symbol2;
+        console.log(symbol2);
+    } 
+    else {
+        console.log(symbol2);
+    }
 }

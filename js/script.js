@@ -37,11 +37,13 @@ do {
 
 
 for(i=0;i<line;i++){
-    if (i!=0){
-        symbol2=symbol+symbol2;
-        console.log(symbol2);
-    } 
-    else {
-        console.log(symbol2);
-    }
+    // if (i!=0){
+    //     symbol2=symbol+symbol2;
+    //     console.log(symbol2);
+    // } 
+    // else {
+    //     console.log(symbol2);
+    // }
+    i!=0 ? console.log(symbol2=symbol+symbol2) : console.log(symbol2);
+    
 }
